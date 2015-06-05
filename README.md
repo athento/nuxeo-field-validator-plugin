@@ -4,6 +4,13 @@
 
 This Nuxeo plugin implements some common field validators for forms. It must be used from another plugin (the one you are developing).
 
+Validations available: 
+- validateEmailAddress
+- validateHomePhoneNumber (must begin with 8 or 9)
+- validateMobilePhoneNumber (must begin with 6 or 7)
+- validateNIF (also checks for the correct letter) (also valid for NIE)
+- validateNIFLazy (just check for 8 digits and a letter)
+
 ## Code Example
 
 Use it in your contribution (extensions.xml):

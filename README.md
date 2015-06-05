@@ -20,7 +20,7 @@ Use it in your contribution (extensions.xml):
 			<property name="validator">#{bFieldValidator.validateEmailAddress}</property>
 		</properties>
 	</widget>
-```xml
+```
 
 ## Motivation
 

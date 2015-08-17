@@ -23,7 +23,7 @@ Use it in your contribution (extensions.xml):
 		<fields>
 			<field>MyApp:EmailAddress</field>
 		</fields>
-		<properties mode="edit">
+		<properties widgetMode="edit">
 			<property name="validator">#{bFieldValidator.validateEmailAddress}</property>
 		</properties>
 	</widget>
